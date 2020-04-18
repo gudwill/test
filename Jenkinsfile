@@ -6,5 +6,10 @@ pipeline {
                 echo "Hello World!"
             }
         }
+        stage('package') {
+            steps {
+                echo "Packaging will be completed!"
+            }
+        }
     }
 }
